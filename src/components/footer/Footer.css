@@ -1,0 +1,20 @@
+footer h3 {
+    font-size: 18px;
+}
+  
+footer h5 {
+    font-size: 14px;
+}
+  
+footer a {
+    color: rgb(53, 162, 159);
+}
+
+.footer {
+    background-color: rgb(11, 102, 106);
+    color: rgb(151, 254, 237);
+    padding: 5px;
+    flex-shrink: 0; 
+    margin-top: auto; 
+    border-radius: 10px;
+}
