@@ -1,0 +1,11 @@
+.home {
+    background-color: rgb(7, 25, 82);
+    color: rgb(151, 254, 237);
+    padding: 20px;
+}
+
+.homeCardDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
