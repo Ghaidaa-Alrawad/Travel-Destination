@@ -8,4 +8,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    /* text-decoration: none; */
+}
+
+.card{
+    text-decoration: none;
+}
+
+.card:hover  {
+    background-color: rgba(11, 102, 106,0.2);
+    color: #fff;
+    transform: scale(1.05);
 }
