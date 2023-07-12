@@ -1,3 +1,5 @@
+// import React from 'react';
+// import { Link } from 'react-router-dom';
 import Header from '../header/Header';
 import Tours from '../tours/Tours';
 import tourData from '../../data/db.json';
@@ -7,16 +9,11 @@ function Home() {
   return (
     <div>
       <Header />
-      
-      <div className='homeCardDiv'>
-      {
-        tourData.map((Obj, i)=>(
-          <Tours key={i} name={Obj.name} img={Obj.image}/>
-        ))
-      }
+
+      <div className="homeCardDiv">
+        <Tours tourData={tourData} />
       </div>
 
-      <Tours />
       <Footer />
     </div>
   );
