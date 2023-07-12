@@ -18,3 +18,10 @@
 #cardId:hover{
     transform: translateY(-10px);
 }
+
+.homeCardDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}

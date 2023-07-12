@@ -8,13 +8,11 @@ import Footer from '../footer/Footer';
 function Home() {
   return (
     <div>
-      <Header />
+      {/* <Header /> */}
 
-      <div className="homeCardDiv">
         <Tours tourData={tourData} />
-      </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

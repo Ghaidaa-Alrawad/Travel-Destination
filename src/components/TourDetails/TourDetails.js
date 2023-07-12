@@ -5,11 +5,7 @@ import tourData from '../../data/db.json';
 
 const TourDetail = () => {
   const { id } = useParams();
-  console.log('id:', id);
-
-  const tour = tourData.find((tour) => tour.id === Number(id));
-  console.log('tour:', tour);
-
+  const tour = tourData.find((tour) => tour.id === (id));
   const [showFullDescription, setShowFullDescription] = useState(false);
 
   const toggleDescription = () => {

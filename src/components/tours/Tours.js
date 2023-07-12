@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Tour from './tour/Tour';
+import './Tours.css'
 
 const Tours = ({ tourData }) => {
   return (
