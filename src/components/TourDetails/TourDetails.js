@@ -24,7 +24,7 @@ const TourDetail = () => {
     <div className="tour-details">
       <h2>{name}</h2>
       <img src={image} alt={name} className="tour-image" />
-      <p className="description">
+      <p className="description"> 
         {showFullDescription ? info : truncatedDescription}
         {info.length > 100 && (
           <button className="toggle-button" onClick={toggleDescription}>
